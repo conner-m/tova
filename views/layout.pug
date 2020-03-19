@@ -1,0 +1,15 @@
+block layout
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    link(rel="shortcut icon", href="/favicon.ico")
+    script(src="https://kit.fontawesome.com/d0c7c0c246.js" crossorigin="anonymous")
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css")
+    link(rel="stylesheet", href="/css/style.css")
+    meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    title #{title}
+  body
+    div.row
+        div.container
+            block content

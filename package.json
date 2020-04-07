@@ -1,7 +1,7 @@
 {
   "name": "tova",
   "version": "1.0.0",
-  "description": "Though Organizer / Virtual Aid",
+  "description": "Thought Organizer / Virtual Aid",
   "main": "app.js",
   "scripts": {
     "start": "node -r dotenv/config app",
